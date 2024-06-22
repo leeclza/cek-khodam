@@ -340,7 +340,7 @@ function cekGas() {
                 document.getElementById('artinya').innerText = khodam.meaning;
                 document.getElementById('hasil').style.display = 'block';
                 document.getElementById('loading').style.display = 'none';
-            }, 2);
+            }, 1600);
         }
 
         function restartLo() {
