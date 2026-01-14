@@ -400,7 +400,7 @@ type Khodam = {
   <footer className="fixed bottom-0 left-0 w-full bg-[#333333]">
     <div className="mx-auto max-w-7xl px-6 py-3">
       <p className="text-center text-sm text-white">
-        Copyright © 2025. Leon - All Rights Reserved
+        Copyright © 2025. Leru - All Rights Reserved
       </p>
     </div>
   </footer>
