@@ -5,7 +5,12 @@ import { useState } from "react";
 export default function Home() {
   const [nama, setNama] = useState("");
   const [loading, setLoading] = useState(false);
-  const [hasil, setHasil] = useState(null);
+  const [hasil, setHasil] = useState<Khodam | null>(null);
+
+type Khodam = {
+  name: string;
+  meaning: string;
+};
 
   function cekGas() {
     if (!nama.trim()) {
@@ -338,6 +343,7 @@ export default function Home() {
                 { name: "Lampu Tertidur", meaning: "Terlihat ngantuk tapi selalu memberikan cahaya yang hangat" },
                 { name: "Anjing Pelacak", meaning: "Kamu setia dan penuh dedikasi, selalu menemukan jalan menuju tujuanmu." },
                 { name: "404", meaning: "😓 Lah error, maaf ya coba ulang lagi. 😓"}
+
       ];
 
       const khodam = khodams[Math.floor(Math.random() * khodams.length)];
@@ -391,9 +397,14 @@ export default function Home() {
         )}
       </div>
 
-      {/* <div className="footer mt-10">
-        <a target="_blank">© weem lelelelele leeclza</a>
-      </div> */}
+  <footer className="fixed bottom-0 left-0 w-full bg-[#333333]">
+    <div className="mx-auto max-w-7xl px-6 py-3">
+      <p className="text-center text-sm text-white">
+        Copyright © 2025. Leon - All Rights Reserved
+      </p>
+    </div>
+  </footer>
+      
     </div>
   );
 }
