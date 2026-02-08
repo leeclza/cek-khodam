@@ -360,8 +360,8 @@ type Khodam = {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center bg-blue-700 p-5 text-center">
       <div className="kartu bg-gray-200 w-full max-w-sm p-5 rounded-lg shadow-lg backdrop-blur-md relative">
-        <h1 className="text-2xl font-bold mb-6">Cek Khodam</h1>
-        <p className="mb-6">Silahkan isi nama anda di kolom bawah</p>
+        <h1 className="text-2xl font-bold mb-6 text-black">Cek Khodam</h1>
+        <p className="mb-6 text-black">Silahkan isi nama anda di kolom bawah</p>
 
         <input
           type="text"
@@ -390,7 +390,7 @@ type Khodam = {
         )}
 
         {hasil && (
-          <div className="mt-5">
+          <div className="mt-5 text-black">
             <h2 className="text-xl font-semibold">Khodam: {hasil?.name}</h2>
             <p>{hasil?.meaning}</p>
           </div>
