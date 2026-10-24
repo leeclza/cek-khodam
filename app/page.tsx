@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { khodams, type Khodam } from "./khodams";
+import StarField from "./StarField";
 
 const ritualSteps = [
   "Menyalakan kemenyan...",
@@ -49,10 +50,11 @@ export default function Home() {
   return (
     <div className="relative min-h-screen overflow-hidden bg-[#0b0614] text-white">
       {/* background glow + stars */}
-      <div className="pointer-events-none absolute inset-0">
-        <div className="absolute -top-40 left-1/2 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-purple-700/30 blur-[120px]" />
-        <div className="absolute bottom-0 right-0 h-[400px] w-[400px] rounded-full bg-amber-500/10 blur-[120px]" />
-        <div className="stars absolute inset-0" />
+      <div className="pointer-events-none fixed inset-0 overflow-hidden">
+        <div className="nebula-1 absolute -top-40 left-1/4 h-[500px] w-[500px] rounded-full bg-purple-700/30 blur-[120px]" />
+        <div className="nebula-2 absolute bottom-0 right-0 h-[450px] w-[450px] rounded-full bg-fuchsia-600/15 blur-[120px]" />
+        <div className="nebula-3 absolute left-0 top-1/2 h-[350px] w-[350px] rounded-full bg-indigo-600/20 blur-[100px]" />
+        <StarField />
       </div>
 
       <main className="relative z-10 flex min-h-screen flex-col items-center justify-center px-4 pb-20 pt-10">
