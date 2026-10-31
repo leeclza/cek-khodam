@@ -323,6 +323,11 @@ export const khodams: Khodam[] = [
   { name: "Kardus Malas", meaning: "Selalu terlihat malas tapi selalu memberikan perlindungan yang baik" },
   { name: "Lampu Tertidur", meaning: "Terlihat ngantuk tapi selalu memberikan cahaya yang hangat" },
   { name: "Anjing Pelacak", meaning: "Kamu setia dan penuh dedikasi, selalu menemukan jalan menuju tujuanmu." },
+  { name: "Tuyul Rebahan", meaning: "Kamu jago cari rezeki, tapi lebih jago lagi cari posisi rebahan yang pas." },
+  { name: "Charger Kendor", meaning: "Kamu setia menemani, asal posisinya jangan digeser sedikit pun." },
+  { name: "Wifi Tetangga", meaning: "Kamu selalu dicari banyak orang, apalagi kalau lagi nggak dikunci." },
+  { name: "Galon Kosong", meaning: "Kamu terlihat santai, tapi kehadiranmu bikin orang sadar betapa pentingnya kamu." },
+  { name: "Cicak Ronda", meaning: "Kamu selalu siaga di malam hari, menjaga rumah dari serangan nyamuk." },
   { name: "404", meaning: "😓 Lah error, maaf ya coba ulang lagi. 😓"}
   
 ];
