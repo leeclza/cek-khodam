@@ -328,6 +328,10 @@ export const khodams: Khodam[] = [
   { name: "Wifi Tetangga", meaning: "Kamu selalu dicari banyak orang, apalagi kalau lagi nggak dikunci." },
   { name: "Galon Kosong", meaning: "Kamu terlihat santai, tapi kehadiranmu bikin orang sadar betapa pentingnya kamu." },
   { name: "Cicak Ronda", meaning: "Kamu selalu siaga di malam hari, menjaga rumah dari serangan nyamuk." },
+  { name: "Remote TV Hilang", meaning: "Kamu sulit ditemukan, tapi begitu muncul semua orang langsung lega." },
+  { name: "Gorengan Sisa", meaning: "Kamu mungkin datang belakangan, tapi tetap diperebutkan." },
+  { name: "Kucing Oren Barbar", meaning: "Kamu berani, nekat, dan selalu bikin heboh satu komplek." },
+  { name: "Alarm Disnooze", meaning: "Kamu selalu mengingatkan, meski sering diabaikan lima menit lagi." },
   { name: "404", meaning: "😓 Lah error, maaf ya coba ulang lagi. 😓"}
   
 ];
